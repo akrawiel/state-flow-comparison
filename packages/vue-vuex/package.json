@@ -1,0 +1,13 @@
+{
+  "name": "vue-vuex",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "nanoid": "^3.1.20",
+    "vue": "^3.0.4",
+    "vuex": "^4.0.0-rc.2"
+  }
+}
