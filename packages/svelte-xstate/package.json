@@ -12,6 +12,7 @@
   },
   "devDependencies": {
     "@snowpack/plugin-svelte": "^3.4.1",
+    "rimraf": "^3.0.2",
     "snowpack": "^3.0.0-rc.2"
   }
 }
