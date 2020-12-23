@@ -1,0 +1,18 @@
+{
+  "name": "root",
+  "private": true,
+  "devDependencies": {
+    "lerna": "^3.22.1",
+    "vite": "^1.0.0-rc.13"
+  },
+  "scripts": {
+    "bootstrap": "lerna bootstrap",
+    "dev": "lerna run dev --stream"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "dependencies": {
+    "vue-vuex": "file:packages/vue-vuex"
+  }
+}
