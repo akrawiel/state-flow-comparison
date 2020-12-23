@@ -4,5 +4,7 @@ Comparison of basic todo apps using JS frameworks &amp; state management librari
 
 # Currently implemented
 
-- Vue + Vuex
-- Svelte + XState
+|Used set|Approximate build size|
+|---|---|
+|Vue + Vuex w/ Vite|66.4 KB|
+|Svelte + XState w/ Snowpack|69.7 KB|
