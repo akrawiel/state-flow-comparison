@@ -2,6 +2,15 @@
 
 Comparison of basic todo apps using JS frameworks &amp; state management libraries
 
+# Setup
+
+To run the project follow these steps:
+
+1. Run `yarn` in the cloned repository
+2. Run `yarn bootstrap` in the cloned repository
+3. Run `yarn dev` to run all the development servers or `yarn build` to run all
+   the building processes
+
 # Currently implemented
 
 |Used set|Approximate build size|
