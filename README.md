@@ -17,10 +17,10 @@ To run the project follow these steps:
 |---|---|
 |Vue + Vuex w/ Vite|66.4 KB|
 |Svelte + XState w/ Snowpack|69.7 KB|
+|Elm w/ Parcel (w/o nanoid)|30.4 KB|
 
 # To implement
 
-- Elm
 - Vue w/o Vuex
 - Svelte w/o XState
 - React + Redux
