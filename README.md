@@ -21,10 +21,18 @@ To run the project follow these steps:
 
 # To implement
 
-- Vue w/o Vuex
-- Svelte w/o XState
+- Vanilla Vue
+- Vanilla Svelte
 - React + Redux
 - React + Recoil
-- React w/o state mgmt lib
+- React + Zustand
+- Vanilla React
+- Svelte + Zustand
+- Reason (w/ ReasonReact)
 - Purescript
-- Reason
+
+# To add
+
+- approximate build time
+- dev servers ports info
+- script to run servers selectively
