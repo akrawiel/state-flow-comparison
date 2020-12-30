@@ -23,16 +23,42 @@ To run the project follow these steps:
 
 - Vanilla Vue
 - Vanilla Svelte
-- React + Redux
 - React + Recoil
-- React + Zustand
+- React + Redux
+- React + MobX
+- React + Unstated-next
+- React + Jotai
+- React + XState
 - Vanilla React
 - Svelte + Zustand
+- Svelte + Baobab
+- Svelte + Effector
+- Svelte + @xstate/fsm (possibly replace existing XState implementation)
+- Svelte + Akita
+- Vue + XState
+- Vanilla JS
+- Aurelia
+- Imba (stable v1 / unstable v2)
+- mithril.js
+- Hyperapp
+- Apline.js + Spruce
+- Angular + rxjs
+- Vanilla Angular
+- Backbone
+- Ember + Concurrency
+- re-frame
 - Reason (w/ ReasonReact)
+- Nim (w/ JS backend)
+- Zig (w/ WASM backend)
+- Rust (w/ WASM backend, possibly + Yew framework)
+- Scala.js
 - Purescript
+
+(replace React with Preact where possible)
 
 # To add
 
+- add library links
 - approximate build time
 - dev servers ports info
 - script to run servers selectively
