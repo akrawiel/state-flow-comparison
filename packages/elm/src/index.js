@@ -1,4 +1,4 @@
-import './index.css'
+import 'common/main.css'
 
 import { Elm } from './Main.elm'
 
