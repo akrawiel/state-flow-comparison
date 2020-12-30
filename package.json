@@ -2,13 +2,15 @@
   "name": "root",
   "private": true,
   "devDependencies": {
+    "chalk": "^4.1.0",
+    "inquirer": "^7.3.3",
     "lerna": "^3.22.1",
     "vite": "^1.0.0-rc.13"
   },
   "scripts": {
     "bootstrap": "lerna bootstrap",
-    "dev": "lerna run dev --stream",
-    "build": "lerna run build --stream"
+    "dev": "node runDevServers.js",
+    "build": "node runBuild.js"
   },
   "workspaces": [
     "packages/*"
