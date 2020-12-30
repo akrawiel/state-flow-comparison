@@ -8,16 +8,26 @@ To run the project follow these steps:
 
 1. Run `yarn` in the cloned repository
 2. Run `yarn bootstrap` in the cloned repository
-3. Run `yarn dev` to run all the development servers or `yarn build` to run all
-   the building processes
+3. Run `yarn dev` to interactively select development servers to run or `yarn
+   build` to interactively select packages to build
 
 # Currently implemented
 
-|Used set|Approximate build size|
-|---|---|
-|Vue + Vuex w/ Vite|66.4 KB|
-|Svelte + XState w/ Snowpack|69.7 KB|
-|Elm w/ Parcel (w/o nanoid)|30.4 KB|
+[Gnomon]: https://github.com/paypal/gnomon
+[Vue]: https://v3.vuejs.org/
+[Vuex]: https://next.vuex.vuejs.org/
+[Vite]: https://github.com/vitejs/vite
+[Svelte]: https://svelte.dev/
+[XState]: https://xstate.js.org/
+[Snowpack]: https://www.snowpack.dev/
+[Elm]: https://elm-lang.org/
+[Parcel]: https://parceljs.org/
+
+|Used set|Approximate build size|Approximate build time (measured with [Gnomon])|
+|---|---|---|
+|[Vue] + [Vuex] w/ [Vite]|66.4 KB|2.4070s|
+|[Svelte] + [XState] w/ [Snowpack]|69.7 KB|1.5606s|
+|[Elm] w/ [Parcel]|30.4 KB|1.4230s|
 
 # To implement
 
@@ -54,11 +64,4 @@ To run the project follow these steps:
 - Scala.js
 - Purescript
 
-(replace React with Preact where possible)
-
-# To add
-
-- add library links
-- approximate build time
-- dev servers ports info
-- script to run servers selectively
+(React will be replaced with Preact where possible)
