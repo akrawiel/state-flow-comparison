@@ -25,23 +25,25 @@ To run the project follow these steps:
 [Svelte]: https://svelte.dev/
 [Elm]: https://elm-lang.org/
 [Preact]: https://preactjs.com/
+[React]: https://reactjs.org/
 
 [Vuex]: https://next.vuex.vuejs.org/
 [XState]: https://xstate.js.org/
 [Recoil]: https://recoiljs.org/
+[Redux]: https://redux.js.org/
 
 |Used set|Build size (uncompressed)|Build size (gzipped)|Approx build time (measured with [Gnomon])|
 |---|---|---|---|
-|[Vue] + [Vuex] w/ [Vite]         |67.99KB|40.17KB|2.4070s|
-|[Svelte] + [XState] w/ [Snowpack]|71.40KB|33.65KB|1.5606s|
-|[Elm] w/ [Parcel]                |31.13KB|19.69KB|1.4230s|
-|[Vue] (vanilla) w/ [Vite]        |59.36KB|35.66KB|1.7538s|
-|[Svelte] (vanilla) w/ [Snowpack] |20.59KB| 6.72KB|0.5739s|
-|[Preact] + [Recoil] w/ [Snowpack]|82.34KB|42.54KB|1.3348s|
+|[Vue] + [Vuex] w/ [Vite]         | 67.99KB|40.17KB|2.4070s|
+|[Svelte] + [XState] w/ [Snowpack]| 71.40KB|33.65KB|1.5606s|
+|[Elm] w/ [Parcel]                | 31.13KB|19.69KB|1.4230s|
+|[Vue] (vanilla) w/ [Vite]        | 59.36KB|35.66KB|1.7538s|
+|[Svelte] (vanilla) w/ [Snowpack] | 20.59KB| 6.72KB|0.5739s|
+|[Preact] + [Recoil] w/ [Snowpack]| 82.34KB|42.54KB|1.3348s|
+|[React] + [Redux] w/ [Snowpack]  |160.18KB|86.65KB|3.7088s|
 
 # To implement
 
-- React + Redux
 - React + MobX
 - React + Unstated-next
 - React + Jotai
