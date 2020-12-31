@@ -48,10 +48,10 @@ To run the project follow these steps:
 |[Preact] + [Unstated-next] w/ [Snowpack]       | 37.67KB| 16.99KB|1.3882s|
 |[React] + [Jotai] w/ [Snowpack]                |158.82KB| 86.56KB|3.4635s|
 |[Preact] + [XState] w/ [Snowpack]              | 86.62KB| 43.08KB|2.6460s|
+|[Preact] w/ [Snowpack]                         | 25.44KB|  9.72KB|1.1813s|
 
 # To implement
 
-- Vanilla React
 - Svelte + Zustand
 - Svelte + Baobab
 - Svelte + Effector

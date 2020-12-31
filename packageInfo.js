@@ -97,5 +97,14 @@ module.exports = [
       port: 8010,
       buildDirectory: 'build'
     }
+  },
+  {
+    name: 'Vanilla Preact',
+    value: {
+      name: 'Vanilla Preact',
+      package: 'preact',
+      port: 8011,
+      buildDirectory: 'build'
+    }
   }
 ]
