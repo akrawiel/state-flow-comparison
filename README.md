@@ -25,7 +25,6 @@ To run the project follow these steps:
 [Svelte]: https://svelte.dev/
 [Elm]: https://elm-lang.org/
 [Preact]: https://preactjs.com/
-[React]: https://reactjs.org/
 
 [Vuex]: https://next.vuex.vuejs.org/
 [XState]: https://xstate.js.org/
@@ -41,7 +40,7 @@ To run the project follow these steps:
 |[Vue] (vanilla) w/ [Vite]        | 59.36KB| 35.66KB|1.7538s|
 |[Svelte] (vanilla) w/ [Snowpack] | 20.59KB|  6.72KB|0.5739s|
 |[Preact] + [Recoil] w/ [Snowpack]| 82.34KB| 42.54KB|1.3348s|
-|[React] + [Redux] w/ [Snowpack]  |160.18KB| 86.65KB|3.7088s|
+|[Preact] + [Redux] w/ [Snowpack] | 47.53KB| 23.69KB|2.1215s|
 |[Preact] + [MobX] w/ [Snowpack]  | 86.39KB| 43.54KB|3.0521s|
 
 # To implement

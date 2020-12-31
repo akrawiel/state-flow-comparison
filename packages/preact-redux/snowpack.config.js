@@ -1,6 +1,6 @@
 module.exports = {
   plugins: [
-    '@snowpack/plugin-react-refresh'
+    '@prefresh/snowpack'
   ],
   devOptions: {
     port: 8006,
@@ -17,5 +17,9 @@ module.exports = {
       minify: true,
       target: 'es2018'
     }
+  },
+  alias: {
+    "react": "preact/compat",
+    "react-dom": "preact/compat"
   }
 }

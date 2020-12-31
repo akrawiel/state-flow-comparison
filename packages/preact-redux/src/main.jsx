@@ -1,7 +1,6 @@
 import '@akrawiel-sfc/common/main.css'
 
-import React from 'react'
-import ReactDOM from 'react-dom'
+import { h, render } from 'preact'
 import { Provider } from 'react-redux'
 
 import store from './store'
@@ -13,4 +12,4 @@ const App = () => (
   </Provider>
 );
 
-ReactDOM.render(<App />, document.querySelector('#app'))
+render(<App />, document.querySelector('#app'))

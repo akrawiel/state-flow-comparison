@@ -54,10 +54,10 @@ module.exports = [
     }
   },
   {
-    name: 'React + Redux',
+    name: 'Preact + Redux',
     value: {
-      name: 'React + Redux',
-      package: 'react-redux',
+      name: 'Preact + Redux',
+      package: 'preact-redux',
       port: 8006,
       buildDirectory: 'build'
     }

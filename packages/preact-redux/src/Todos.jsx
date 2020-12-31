@@ -1,4 +1,4 @@
-import React from 'react'
+import { h } from 'preact'
 import { useDispatch, useSelector } from 'react-redux'
 
 const Todos = () => {
