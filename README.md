@@ -31,21 +31,22 @@ To run the project follow these steps:
 [Recoil]: https://recoiljs.org/
 [Redux]: https://redux.js.org/
 [MobX]: https://mobx.js.org/
+[Unstated-next]: https://github.com/jamiebuilds/unstated-next
 
 |Used set|Build size (uncompressed)|Build size (gzipped)|Approx build time (measured with [Gnomon])|
 |---|---|---|---|
-|[Vue] + [Vuex] w/ [Vite]         | 67.99KB| 40.17KB|2.4070s|
-|[Svelte] + [XState] w/ [Snowpack]| 71.40KB| 33.65KB|1.5606s|
-|[Elm] w/ [Parcel]                | 31.13KB| 19.69KB|1.4230s|
-|[Vue] (vanilla) w/ [Vite]        | 59.36KB| 35.66KB|1.7538s|
-|[Svelte] (vanilla) w/ [Snowpack] | 20.59KB|  6.72KB|0.5739s|
-|[Preact] + [Recoil] w/ [Snowpack]| 82.34KB| 42.54KB|1.3348s|
-|[Preact] + [Redux] w/ [Snowpack] | 47.53KB| 23.69KB|2.1215s|
-|[Preact] + [MobX] w/ [Snowpack]  | 86.39KB| 43.54KB|3.0521s|
+|[Vue] + [Vuex] w/ [Vite]                       | 67.99KB| 40.17KB|2.4070s|
+|[Svelte] + [XState] w/ [Snowpack]              | 71.40KB| 33.65KB|1.5606s|
+|[Elm] w/ [Parcel]                              | 31.13KB| 19.69KB|1.4230s|
+|[Vue] (vanilla) w/ [Vite]                      | 59.36KB| 35.66KB|1.7538s|
+|[Svelte] (vanilla) w/ [Snowpack]               | 20.59KB|  6.72KB|0.5739s|
+|[Preact] + [Recoil] w/ [Snowpack]              | 82.34KB| 42.54KB|1.3348s|
+|[Preact] + [Redux] w/ [Snowpack]               | 47.53KB| 23.69KB|2.1215s|
+|[Preact] + [MobX] w/ [Snowpack]                | 86.39KB| 43.54KB|3.0521s|
+|[Preact] + [Unstated-next] w/ [Snowpack]       | 37.67KB| 16.99KB|1.3882s|
 
 # To implement
 
-- React + Unstated-next
 - React + Jotai
 - React + XState
 - Vanilla React

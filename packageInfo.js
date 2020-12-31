@@ -70,5 +70,14 @@ module.exports = [
       port: 8007,
       buildDirectory: 'build'
     }
+  },
+  {
+    name: 'Preact + Unstated-next',
+    value: {
+      name: 'Preact + Unstated-next',
+      package: 'preact-unstated-next',
+      port: 8008,
+      buildDirectory: 'build'
+    }
   }
 ]

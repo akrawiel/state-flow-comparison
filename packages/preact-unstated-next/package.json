@@ -1,0 +1,20 @@
+{
+  "name": "@akrawiel-sfc/preact-unstated-next",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "snowpack dev",
+    "build": "rimraf build && snowpack build | gnomon -t elapsed-total"
+  },
+  "dependencies": {
+    "nanoid": "^3.1.20",
+    "preact": "^10.5.8",
+    "unstated-next": "^1.1.0"
+  },
+  "devDependencies": {
+    "@prefresh/snowpack": "^3.0.0",
+    "gnomon": "^1.5.0",
+    "rimraf": "^3.0.2",
+    "snowpack": "^3.0.0-rc.2",
+    "unstated-next": "^1.1.0"
+  }
+}
