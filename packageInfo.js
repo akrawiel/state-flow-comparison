@@ -25,5 +25,14 @@ module.exports = [
       port: 8002,
       buildDirectory: 'dist'
     }
-  }
+  },
+  {
+    name: 'Vanilla Vue',
+    value: {
+      name: 'Vanilla Vue',
+      package: 'vue',
+      port: 8003,
+      buildDirectory: 'dist'
+    }
+  },
 ]

@@ -28,10 +28,10 @@ To run the project follow these steps:
 |[Vue] + [Vuex] w/ [Vite]|66.4 KB|2.4070s|
 |[Svelte] + [XState] w/ [Snowpack]|69.7 KB|1.5606s|
 |[Elm] w/ [Parcel]|30.4 KB|1.4230s|
+|[Vue] (vanilla) w/ [Vite]|58 KB|1.7538s|
 
 # To implement
 
-- Vanilla Vue
 - Vanilla Svelte
 - React + Recoil
 - React + Redux
