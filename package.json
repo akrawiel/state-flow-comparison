@@ -10,7 +10,8 @@
   "scripts": {
     "bootstrap": "lerna bootstrap",
     "dev": "node runDevServers.js",
-    "build": "node runBuild.js"
+    "build": "node runBuild.js",
+    "size-report": "node generateSizeReport.js"
   },
   "workspaces": [
     "packages/*"

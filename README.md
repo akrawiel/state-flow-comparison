@@ -10,29 +10,34 @@ To run the project follow these steps:
 2. Run `yarn bootstrap` in the cloned repository
 3. Run `yarn dev` to interactively select development servers to run or `yarn
    build` to interactively select packages to build
+4. Run `yarn size-report` to generate bundle size report (tested only on Linux,
+   `gzip` & `du` commands are required in your `PATH` env variable)
 
 # Currently implemented
 
 [Gnomon]: https://github.com/paypal/gnomon
+
+[Parcel]: https://parceljs.org/
+[Snowpack]: https://www.snowpack.dev/
+
 [Vue]: https://v3.vuejs.org/
-[Vuex]: https://next.vuex.vuejs.org/
 [Vite]: https://github.com/vitejs/vite
 [Svelte]: https://svelte.dev/
-[XState]: https://xstate.js.org/
-[Snowpack]: https://www.snowpack.dev/
 [Elm]: https://elm-lang.org/
-[Parcel]: https://parceljs.org/
 [Preact]: https://preactjs.com/
+
+[Vuex]: https://next.vuex.vuejs.org/
+[XState]: https://xstate.js.org/
 [Recoil]: https://recoiljs.org/
 
-|Used set|Approximate build size|Approximate build time (measured with [Gnomon])|
-|---|---|---|
-|[Vue] + [Vuex] w/ [Vite]|66.4 KB|2.4070s|
-|[Svelte] + [XState] w/ [Snowpack]|69.7 KB|1.5606s|
-|[Elm] w/ [Parcel]|30.4 KB|1.4230s|
-|[Vue] (vanilla) w/ [Vite]|58 KB|1.7538s|
-|[Svelte] (vanilla) w/ [Snowpack]|21.3 KB|0.5739s|
-|[Preact] + [Recoil] w/ [Snowpack]|80.4 KB (compat was needed)|1.3348s|
+|Used set|Build size (uncompressed)|Build size (gzipped)|Approx build time (measured with [Gnomon])|
+|---|---|---|---|
+|[Vue] + [Vuex] w/ [Vite]         |67.99KB|40.17KB|2.4070s|
+|[Svelte] + [XState] w/ [Snowpack]|71.40KB|33.65KB|1.5606s|
+|[Elm] w/ [Parcel]                |31.13KB|19.69KB|1.4230s|
+|[Vue] (vanilla) w/ [Vite]        |59.36KB|35.66KB|1.7538s|
+|[Svelte] (vanilla) w/ [Snowpack] |20.59KB| 6.72KB|0.5739s|
+|[Preact] + [Recoil] w/ [Snowpack]|82.34KB|42.54KB|1.3348s|
 
 # To implement
 
@@ -67,7 +72,3 @@ To run the project follow these steps:
 - Purescript
 
 (React will be replaced with Preact where possible)
-
-# To add
-
-- Bash script for compressed & uncompressed size reporting
