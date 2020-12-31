@@ -22,6 +22,8 @@ To run the project follow these steps:
 [Snowpack]: https://www.snowpack.dev/
 [Elm]: https://elm-lang.org/
 [Parcel]: https://parceljs.org/
+[Preact]: https://preactjs.com/
+[Recoil]: https://recoiljs.org/
 
 |Used set|Approximate build size|Approximate build time (measured with [Gnomon])|
 |---|---|---|
@@ -30,10 +32,10 @@ To run the project follow these steps:
 |[Elm] w/ [Parcel]|30.4 KB|1.4230s|
 |[Vue] (vanilla) w/ [Vite]|58 KB|1.7538s|
 |[Svelte] (vanilla) w/ [Snowpack]|21.3 KB|0.5739s|
+|[Preact] + [Recoil] w/ [Snowpack]|80.4 KB (compat was needed)|1.3348s|
 
 # To implement
 
-- React + Recoil
 - React + Redux
 - React + MobX
 - React + Unstated-next

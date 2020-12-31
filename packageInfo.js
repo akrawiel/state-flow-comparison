@@ -43,5 +43,14 @@ module.exports = [
       port: 8004,
       buildDirectory: 'build'
     }
+  },
+  {
+    name: 'Preact + Recoil',
+    value: {
+      name: 'Preact + Recoil',
+      package: 'preact-recoil',
+      port: 8005,
+      buildDirectory: 'build'
+    }
   }
 ]
