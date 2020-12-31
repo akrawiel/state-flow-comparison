@@ -18,7 +18,7 @@ inquirer.prompt([
     ({ name, buildDirectory, package }) => {
       console.log(
         chalk.blue('Bundle ') +
-        chalk.yellow.bold(`${name} (${package})`) +
+        chalk.yellow.bold(`${name} (@akrawiel-sfc/${package})`) +
         chalk.blue(' will be placed in ') +
         chalk.yellow.bold(`packages/${package}/${buildDirectory}`)
       )
@@ -27,13 +27,16 @@ inquirer.prompt([
 
   console.log(chalk.green.bold('\nBuilding selected Lerna packages... (press Ctrl+C to stop)\n'))
 
-  const joinedPackages = buildChoices.map(({ package }) => package).join(",")
+  const scopedPackages = buildChoices.map(
+    ({ package }) => `--scope=@akrawiel-sfc/${package}`
+  )
+
   execa(
     'lerna',
     [
       'run',
       'build',
-      `--scope={${joinedPackages},}`,
+      ...scopedPackages,
       '--stream',
       '--loglevel=notice'
     ],

@@ -1,5 +1,5 @@
 {
-  "name": "svelte",
+  "name": "@akrawiel-sfc/svelte",
   "version": "0.0.0",
   "scripts": {
     "dev": "snowpack dev",

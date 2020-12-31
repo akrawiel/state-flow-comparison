@@ -1,5 +1,5 @@
 {
-  "name": "react-plus-redux",
+  "name": "@akrawiel-sfc/react-redux",
   "version": "0.0.0",
   "scripts": {
     "dev": "snowpack dev",

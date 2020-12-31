@@ -1,5 +1,5 @@
 {
-  "name": "vue-vuex",
+  "name": "@akrawiel-sfc/vue-vuex",
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",

@@ -1,5 +1,5 @@
 {
-  "name": "preact-recoil",
+  "name": "@akrawiel-sfc/preact-recoil",
   "version": "0.0.0",
   "scripts": {
     "dev": "snowpack dev",

@@ -18,7 +18,7 @@ inquirer.prompt([
     ({ name, port, package }) => {
       console.log(
         chalk.blue('Server for ') +
-        chalk.yellow.bold(`${name} (${package})`) +
+        chalk.yellow.bold(`${name} (@akrawiel-sfc/${package})`) +
         chalk.blue(' will run at port ') +
         chalk.yellow.bold(port)
       )
@@ -27,13 +27,16 @@ inquirer.prompt([
 
   console.log(chalk.green.bold('\nRunning selected Lerna packages... (press Ctrl+C to stop)\n'))
 
-  const joinedPackages = serverChoices.map(({ package }) => package).join(",")
+  const scopedPackages = serverChoices.map(
+    ({ package }) => `--scope=@akrawiel-sfc/${package}`
+  )
+
   execa(
     'lerna',
     [
       'run',
       'dev',
-      `--scope={${joinedPackages},}`,
+      ...scopedPackages,
       '--stream',
       '--loglevel=notice'
     ],

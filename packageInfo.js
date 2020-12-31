@@ -57,7 +57,7 @@ module.exports = [
     name: 'React + Redux',
     value: {
       name: 'React + Redux',
-      package: 'react-plus-redux',
+      package: 'react-redux',
       port: 8006,
       buildDirectory: 'build'
     }

@@ -1,4 +1,4 @@
-import 'common/main.css'
+import '@akrawiel-sfc/common/main.css'
 
 import { Elm } from './Main.elm'
 

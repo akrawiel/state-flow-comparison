@@ -1,4 +1,4 @@
-import 'common/main.css'
+import '@akrawiel-sfc/common/main.css'
 
 import { createApp } from 'vue'
 import App from './App.vue'

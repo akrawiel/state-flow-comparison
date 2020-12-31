@@ -1,5 +1,5 @@
 {
-  "name": "svelte-xstate",
+  "name": "@akrawiel-sfc/svelte-xstate",
   "version": "0.0.0",
   "scripts": {
     "dev": "snowpack dev",
