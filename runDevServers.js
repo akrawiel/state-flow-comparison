@@ -1,6 +1,6 @@
 const inquirer = require('inquirer')
 const chalk = require('chalk')
-const lerna = require('lerna')
+const execa = require('execa')
 
 const packageInfo = require('./packageInfo')
 
@@ -9,7 +9,7 @@ inquirer.prompt([
     type: 'checkbox',
     name: 'serverChoices',
     message: 'Choose dev servers to run',
-    choices: packageInfo
+    choices: packageInfo,
   }
 ]).then(({ serverChoices }) => {
   console.log() // separator line
@@ -27,6 +27,18 @@ inquirer.prompt([
 
   console.log(chalk.green.bold('\nRunning selected Lerna packages... (press Ctrl+C to stop)\n'))
 
-  const joinedServerChoices = serverChoices.map(({ package }) => package).join(",")
-  lerna(`run dev --scope={${joinedServerChoices},} --stream --loglevel=notice`)
+  const joinedPackages = serverChoices.map(({ package }) => package).join(",")
+  execa(
+    'lerna',
+    [
+      'run',
+      'dev',
+      `--scope={${joinedPackages},}`,
+      '--stream',
+      '--loglevel=notice'
+    ],
+    {
+      stdio: 'inherit'
+    }
+  )
 })

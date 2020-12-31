@@ -3,6 +3,7 @@
   "private": true,
   "devDependencies": {
     "chalk": "^4.1.0",
+    "execa": "^5.0.0",
     "inquirer": "^7.3.3",
     "lerna": "^3.22.1",
     "vite": "^1.0.0-rc.13"

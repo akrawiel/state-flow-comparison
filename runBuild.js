@@ -1,6 +1,6 @@
 const inquirer = require('inquirer')
 const chalk = require('chalk')
-const lerna = require('lerna')
+const execa = require('execa')
 
 const packageInfo = require('./packageInfo')
 
@@ -27,6 +27,18 @@ inquirer.prompt([
 
   console.log(chalk.green.bold('\nBuilding selected Lerna packages... (press Ctrl+C to stop)\n'))
 
-  const joinedServerChoices = buildChoices.map(({ package }) => package).join(",")
-  lerna(`run build --scope={${joinedServerChoices},} --stream --loglevel=notice`)
+  const joinedPackages = buildChoices.map(({ package }) => package).join(",")
+  execa(
+    'lerna',
+    [
+      'run',
+      'build',
+      `--scope={${joinedPackages},}`,
+      '--stream',
+      '--loglevel=notice'
+    ],
+    {
+      stdio: 'inherit'
+    }
+  )
 })
