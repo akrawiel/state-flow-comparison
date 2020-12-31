@@ -1,15 +1,30 @@
 const inquirer = require('inquirer')
 const chalk = require('chalk')
 const execa = require('execa')
+const fuzzy = require('fuzzy')
 
 const packageInfo = require('./packageInfo')
 
+inquirer.registerPrompt('checkbox-plus', require('inquirer-checkbox-plus-prompt'))
+
 inquirer.prompt([
   {
-    type: 'checkbox',
+    type: 'checkbox-plus',
     name: 'buildChoices',
-    message: 'Choose packages to build',
-    choices: packageInfo
+    message: 'Choose packages to build (<space> to toggle, <enter> to submit)',
+    highlight: true,
+    searchable: true,
+    source: (_, input) => new Promise((resolve) => {
+      const fuzzyResult = fuzzy.filter(
+        input || '',
+        packageInfo,
+        {
+          extract: ({ name }) => name
+        }
+      )
+
+      resolve(fuzzyResult.map(element => element.original))
+    })
   }
 ]).then(({ buildChoices }) => {
   console.log() // separator line
@@ -38,6 +53,7 @@ inquirer.prompt([
       'build',
       ...scopedPackages,
       '--stream',
+      '--parallel',
       '--loglevel=notice'
     ],
     {
