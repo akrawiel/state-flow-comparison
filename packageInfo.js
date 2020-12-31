@@ -79,5 +79,14 @@ module.exports = [
       port: 8008,
       buildDirectory: 'build'
     }
+  },
+  {
+    name: 'React + Jotai',
+    value: {
+      name: 'React + Jotai',
+      package: 'react-jotai',
+      port: 8009,
+      buildDirectory: 'build'
+    }
   }
 ]

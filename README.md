@@ -25,6 +25,7 @@ To run the project follow these steps:
 [Svelte]: https://svelte.dev/
 [Elm]: https://elm-lang.org/
 [Preact]: https://preactjs.com/
+[React]: https://reactjs.org/
 
 [Vuex]: https://next.vuex.vuejs.org/
 [XState]: https://xstate.js.org/
@@ -32,6 +33,7 @@ To run the project follow these steps:
 [Redux]: https://redux.js.org/
 [MobX]: https://mobx.js.org/
 [Unstated-next]: https://github.com/jamiebuilds/unstated-next
+[Jotai]: https://jotai.surge.sh/
 
 |Used set|Build size (uncompressed)|Build size (gzipped)|Approx build time (measured with [Gnomon])|
 |---|---|---|---|
@@ -44,10 +46,10 @@ To run the project follow these steps:
 |[Preact] + [Redux] w/ [Snowpack]               | 47.53KB| 23.69KB|2.1215s|
 |[Preact] + [MobX] w/ [Snowpack]                | 86.39KB| 43.54KB|3.0521s|
 |[Preact] + [Unstated-next] w/ [Snowpack]       | 37.67KB| 16.99KB|1.3882s|
+|[React] + [Jotai] w/ [Snowpack]                |158.82KB| 86.56KB|3.4635s|
 
 # To implement
 
-- React + Jotai
 - React + XState
 - Vanilla React
 - Svelte + Zustand

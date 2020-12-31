@@ -1,0 +1,21 @@
+{
+  "name": "@akrawiel-sfc/react-jotai",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "snowpack dev",
+    "build": "rimraf build && snowpack build | gnomon -t elapsed-total"
+  },
+  "dependencies": {
+    "@snowpack/plugin-react-refresh": "^2.3.9",
+    "jotai": "^0.12.2",
+    "nanoid": "^3.1.20",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "scheduler": "^0.20.1"
+  },
+  "devDependencies": {
+    "gnomon": "^1.5.0",
+    "rimraf": "^3.0.2",
+    "snowpack": "^3.0.0-rc.2"
+  }
+}
