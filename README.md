@@ -67,3 +67,7 @@ To run the project follow these steps:
 - Purescript
 
 (React will be replaced with Preact where possible)
+
+# To add
+
+- Bash script for compressed & uncompressed size reporting
