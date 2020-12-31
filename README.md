@@ -29,10 +29,10 @@ To run the project follow these steps:
 |[Svelte] + [XState] w/ [Snowpack]|69.7 KB|1.5606s|
 |[Elm] w/ [Parcel]|30.4 KB|1.4230s|
 |[Vue] (vanilla) w/ [Vite]|58 KB|1.7538s|
+|[Svelte] (vanilla) w/ [Snowpack]|21.3 KB|0.5739s|
 
 # To implement
 
-- Vanilla Svelte
 - React + Recoil
 - React + Redux
 - React + MobX

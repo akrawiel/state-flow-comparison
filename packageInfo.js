@@ -35,4 +35,13 @@ module.exports = [
       buildDirectory: 'dist'
     }
   },
+  {
+    name: 'Vanilla Svelte',
+    value: {
+      name: 'Vanilla Svelte',
+      package: 'svelte',
+      port: 8004,
+      buildDirectory: 'build'
+    }
+  }
 ]
