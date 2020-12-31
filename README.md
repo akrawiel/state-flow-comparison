@@ -47,10 +47,10 @@ To run the project follow these steps:
 |[Preact] + [MobX] w/ [Snowpack]                | 86.39KB| 43.54KB|3.0521s|
 |[Preact] + [Unstated-next] w/ [Snowpack]       | 37.67KB| 16.99KB|1.3882s|
 |[React] + [Jotai] w/ [Snowpack]                |158.82KB| 86.56KB|3.4635s|
+|[Preact] + [XState] w/ [Snowpack]              | 86.62KB| 43.08KB|2.6460s|
 
 # To implement
 
-- React + XState
 - Vanilla React
 - Svelte + Zustand
 - Svelte + Baobab

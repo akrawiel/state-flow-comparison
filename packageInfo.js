@@ -88,5 +88,14 @@ module.exports = [
       port: 8009,
       buildDirectory: 'build'
     }
+  },
+  {
+    name: 'Preact + XState',
+    value: {
+      name: 'Preact + XState',
+      package: 'preact-xstate',
+      port: 8010,
+      buildDirectory: 'build'
+    }
   }
 ]
