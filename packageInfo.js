@@ -61,5 +61,14 @@ module.exports = [
       port: 8006,
       buildDirectory: 'build'
     }
+  },
+  {
+    name: 'Preact + MobX',
+    value: {
+      name: 'Preact + MobX',
+      package: 'preact-mobx',
+      port: 8007,
+      buildDirectory: 'build'
+    }
   }
 ]
