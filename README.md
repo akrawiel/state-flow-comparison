@@ -35,6 +35,7 @@ To run the project follow these steps:
 [Unstated-next]: https://github.com/jamiebuilds/unstated-next
 [Jotai]: https://jotai.surge.sh/
 [Zustand]: https://zustand.surge.sh/
+[XState FSM]: https://xstate.js.org/docs/packages/xstate-fsm/
 
 |Used set|Build size (uncompressed)|Build size (gzipped)|Approx build time (measured with [Gnomon])|
 |---|---|---|---|
@@ -52,10 +53,10 @@ To run the project follow these steps:
 |[Preact] w/ [Snowpack]                         | 25.44KB|  9.72KB|1.1813s|
 |[Svelte] + [Zustand] w/ [Snowpack]             | 24.84KB|  9.25KB|0.6132s|
 |[Svelte] + [Effector] w/ [Snowpack]            | 31.24KB| 14.97KB|0.6925s|
+|[Svelte] + [XState FSM] w/ [Snowpack]          | 27.25KB| 11.23KB|0.5992s|
 
 # To implement
 
-- Svelte + @xstate/fsm (possibly replace existing XState implementation)
 - Svelte + Akita
 - Vue + XState
 - Vanilla JS

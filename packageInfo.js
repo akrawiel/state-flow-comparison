@@ -124,5 +124,14 @@ module.exports = [
       port: 8013,
       buildDirectory: 'build'
     }
+  },
+  {
+    name: 'Svelte + @xstate/fsm',
+    value: {
+      name: 'Svelte + @xstate/fsm',
+      package: 'svelte-xstate-fsm',
+      port: 8014,
+      buildDirectory: 'build'
+    }
   }
 ]
