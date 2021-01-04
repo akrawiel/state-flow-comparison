@@ -115,5 +115,14 @@ module.exports = [
       port: 8012,
       buildDirectory: 'build'
     }
+  },
+  {
+    name: 'Svelte + Effector',
+    value: {
+      name: 'Svelte + Effector',
+      package: 'svelte-effector',
+      port: 8013,
+      buildDirectory: 'build'
+    }
   }
 ]

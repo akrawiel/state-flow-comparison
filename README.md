@@ -51,11 +51,10 @@ To run the project follow these steps:
 |[Preact] + [XState] w/ [Snowpack]              | 86.62KB| 43.08KB|2.6460s|
 |[Preact] w/ [Snowpack]                         | 25.44KB|  9.72KB|1.1813s|
 |[Svelte] + [Zustand] w/ [Snowpack]             | 24.84KB|  9.25KB|0.6132s|
+|[Svelte] + [Effector] w/ [Snowpack]            | 31.24KB| 14.97KB|0.6925s|
 
 # To implement
 
-- Svelte + Baobab
-- Svelte + Effector
 - Svelte + @xstate/fsm (possibly replace existing XState implementation)
 - Svelte + Akita
 - Vue + XState
