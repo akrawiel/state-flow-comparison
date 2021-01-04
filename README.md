@@ -35,6 +35,7 @@ To run the project follow these steps:
 [Unstated-next]: https://github.com/jamiebuilds/unstated-next
 [Jotai]: https://jotai.surge.sh/
 [Zustand]: https://zustand.surge.sh/
+[Effector]: https://effector.dev/
 [XState FSM]: https://xstate.js.org/docs/packages/xstate-fsm/
 [Akita]: https://datorama.github.io/akita/
 
