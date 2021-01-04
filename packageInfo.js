@@ -142,5 +142,14 @@ module.exports = [
       port: 8015,
       buildDirectory: 'build'
     }
+  },
+  {
+    name: 'Vue + XState',
+    value: {
+      name: 'Vue + XState',
+      package: 'vue-xstate',
+      port: 8016,
+      buildDirectory: 'dist'
+    }
   }
 ]

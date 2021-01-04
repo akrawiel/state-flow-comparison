@@ -2316,6 +2316,11 @@
     use-isomorphic-layout-effect "^1.0.0"
     use-subscription "^1.3.0"
 
+"@xstate/vue@^0.4.0":
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/@xstate/vue/-/vue-0.4.0.tgz#045f1e73eabcdb5ef9ca8f824b2cc7295bf356ac"
+  integrity sha512-PXzWciVxfSvvB/QrxhH3OPnCjmE0cDQhq5FMP8WLB/OM8oZpa/EWseVR9UEwBitluh/KIoOA9NuGO+PFtDIlmQ==
+
 "@zkochan/cmd-shim@^3.1.0":
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/@zkochan/cmd-shim/-/cmd-shim-3.1.0.tgz#2ab8ed81f5bb5452a85f25758eb9b8681982fd2e"

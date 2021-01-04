@@ -56,10 +56,10 @@ To run the project follow these steps:
 |[Svelte] + [Effector] w/ [Snowpack]            | 31.24KB| 14.97KB|0.6925s|
 |[Svelte] + [XState FSM] w/ [Snowpack]          | 27.25KB| 11.23KB|0.5992s|
 |[Svelte] + [Akita] w/ [Snowpack]               |101.13KB| 44.38KB|1.8544s|
+|[Vue] + [XState] w/ [Vite]                     |140.48KB| 81.76KB|2.8134s|
 
 # To implement
 
-- Vue + XState
 - Vanilla JS
 - Aurelia
 - Imba (stable v1 / unstable v2)
