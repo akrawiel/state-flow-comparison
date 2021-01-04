@@ -36,6 +36,7 @@ To run the project follow these steps:
 [Jotai]: https://jotai.surge.sh/
 [Zustand]: https://zustand.surge.sh/
 [XState FSM]: https://xstate.js.org/docs/packages/xstate-fsm/
+[Akita]: https://datorama.github.io/akita/
 
 |Used set|Build size (uncompressed)|Build size (gzipped)|Approx build time (measured with [Gnomon])|
 |---|---|---|---|
@@ -54,10 +55,10 @@ To run the project follow these steps:
 |[Svelte] + [Zustand] w/ [Snowpack]             | 24.84KB|  9.25KB|0.6132s|
 |[Svelte] + [Effector] w/ [Snowpack]            | 31.24KB| 14.97KB|0.6925s|
 |[Svelte] + [XState FSM] w/ [Snowpack]          | 27.25KB| 11.23KB|0.5992s|
+|[Svelte] + [Akita] w/ [Snowpack]               |101.13KB| 44.38KB|1.8544s|
 
 # To implement
 
-- Svelte + Akita
 - Vue + XState
 - Vanilla JS
 - Aurelia

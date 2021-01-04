@@ -133,5 +133,14 @@ module.exports = [
       port: 8014,
       buildDirectory: 'build'
     }
+  },
+  {
+    name: 'Svelte + Akita',
+    value: {
+      name: 'Svelte + Akita',
+      package: 'svelte-akita',
+      port: 8015,
+      buildDirectory: 'build'
+    }
   }
 ]
