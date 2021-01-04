@@ -34,6 +34,7 @@ To run the project follow these steps:
 [MobX]: https://mobx.js.org/
 [Unstated-next]: https://github.com/jamiebuilds/unstated-next
 [Jotai]: https://jotai.surge.sh/
+[Zustand]: https://zustand.surge.sh/
 
 |Used set|Build size (uncompressed)|Build size (gzipped)|Approx build time (measured with [Gnomon])|
 |---|---|---|---|
@@ -49,10 +50,10 @@ To run the project follow these steps:
 |[React] + [Jotai] w/ [Snowpack]                |158.82KB| 86.56KB|3.4635s|
 |[Preact] + [XState] w/ [Snowpack]              | 86.62KB| 43.08KB|2.6460s|
 |[Preact] w/ [Snowpack]                         | 25.44KB|  9.72KB|1.1813s|
+|[Svelte] + [Zustand] w/ [Snowpack]             | 24.84KB|  9.25KB|0.6132s|
 
 # To implement
 
-- Svelte + Zustand
 - Svelte + Baobab
 - Svelte + Effector
 - Svelte + @xstate/fsm (possibly replace existing XState implementation)

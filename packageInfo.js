@@ -106,5 +106,14 @@ module.exports = [
       port: 8011,
       buildDirectory: 'build'
     }
+  },
+  {
+    name: 'Svelte + Zustand',
+    value: {
+      name: 'Svelte + Zustand',
+      package: 'svelte-zustand',
+      port: 8012,
+      buildDirectory: 'build'
+    }
   }
 ]
