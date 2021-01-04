@@ -151,5 +151,14 @@ module.exports = [
       port: 8016,
       buildDirectory: 'dist'
     }
+  },
+  {
+    name: 'Vanilla JS',
+    value: {
+      name: 'Vanilla JS',
+      package: 'vanilla',
+      port: 8017,
+      buildDirectory: 'build'
+    }
   }
 ]

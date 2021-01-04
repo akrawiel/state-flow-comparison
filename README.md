@@ -38,6 +38,7 @@ To run the project follow these steps:
 [Effector]: https://effector.dev/
 [XState FSM]: https://xstate.js.org/docs/packages/xstate-fsm/
 [Akita]: https://datorama.github.io/akita/
+[Vanilla JS]: http://vanilla-js.com/
 
 |Used set|Build size (uncompressed)|Build size (gzipped)|Approx build time (measured with [Gnomon])|
 |---|---|---|---|
@@ -58,10 +59,10 @@ To run the project follow these steps:
 |[Svelte] + [XState FSM] w/ [Snowpack]          | 27.25KB| 11.23KB|0.5992s|
 |[Svelte] + [Akita] w/ [Snowpack]               |101.13KB| 44.38KB|1.8544s|
 |[Vue] + [XState] w/ [Vite]                     |140.48KB| 81.76KB|2.8134s|
+|[Vanilla JS] w/ [Snowpack]                     | 18.09KB|  4.62KB|0.3244s|
 
 # To implement
 
-- Vanilla JS
 - Aurelia
 - Imba (stable v1 / unstable v2)
 - mithril.js
