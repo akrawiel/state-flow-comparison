@@ -63,21 +63,18 @@ To run the project follow these steps:
 
 # To implement
 
-- Aurelia
-- Imba (stable v1 / unstable v2)
 - mithril.js
 - Hyperapp
-- Apline.js + Spruce
+- Alpine.js
 - Angular + rxjs
 - Vanilla Angular
 - Backbone
-- Ember + Concurrency
+- Ember
 - re-frame
 - Reason (w/ ReasonReact)
 - Nim (w/ JS backend)
 - Zig (w/ WASM backend)
 - Rust (w/ WASM backend, possibly + Yew framework)
+- Blazor.NET
 - Scala.js
 - Purescript
-
-(React will be replaced with Preact where possible)
