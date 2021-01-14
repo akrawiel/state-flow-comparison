@@ -72,6 +72,10 @@ To run the project follow these steps:
 - Vanilla Angular
 - Backbone
 - Ember
+- choo.js
+- [solid](https://github.com/ryansolid/solid)
+- marko
+- imba
 - re-frame
 - Reason (w/ ReasonReact)
 - Nim (w/ JS backend)
