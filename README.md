@@ -39,6 +39,7 @@ To run the project follow these steps:
 [XState FSM]: https://xstate.js.org/docs/packages/xstate-fsm/
 [Akita]: https://datorama.github.io/akita/
 [Vanilla JS]: http://vanilla-js.com/
+[Mithril JS]: https://mithril.js.org/
 
 |Used set|Build size (uncompressed)|Build size (gzipped)|Approx build time (measured with [Gnomon])|
 |---|---|---|---|
@@ -60,10 +61,10 @@ To run the project follow these steps:
 |[Svelte] + [Akita] w/ [Snowpack]               |101.13KB| 44.38KB|1.8544s|
 |[Vue] + [XState] w/ [Vite]                     |140.48KB| 81.76KB|2.8134s|
 |[Vanilla JS] w/ [Snowpack]                     | 18.09KB|  4.62KB|0.3244s|
+|[Mithril JS] w/ [Snowpack]                     | 44.17KB| 21.29KB|0.9786s|
 
 # To implement
 
-- mithril.js
 - Hyperapp
 - Alpine.js
 - Angular + rxjs

@@ -1,0 +1,17 @@
+{
+  "name": "@akrawiel-sfc/mithril",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "snowpack dev",
+    "build": "snowpack build | gnomon -t elapsed-total"
+  },
+  "dependencies": {
+    "mithril": "^2.0.4",
+    "nanoid": "^3.1.20"
+  },
+  "devDependencies": {
+    "gnomon": "^1.5.0",
+    "rimraf": "^3.0.2",
+    "snowpack": "^3.0.0-rc.2"
+  }
+}

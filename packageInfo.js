@@ -106,5 +106,11 @@ module.exports = [
     package: 'vanilla',
     port: 8017,
     buildDirectory: 'build'
+  },
+  {
+    name: 'Mithril JS',
+    package: 'mithril',
+    port: 8018,
+    buildDirectory: 'build'
   }
 ]
