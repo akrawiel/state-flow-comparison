@@ -7,7 +7,7 @@ const packageInfo = require('./packageInfo');
 console.log(chalk.blue.bold('Initializing size calculations...\n'))
 
 const sizes = packageInfo.reduce(
-  (accumulatedSizesInfo, { value: { name, package, buildDirectory } }) => {
+  (accumulatedSizesInfo, { name, package, buildDirectory }) => {
     const buildPath = path.resolve(__dirname, 'packages', package, buildDirectory);
 
     let sizes = {
