@@ -5758,6 +5758,11 @@ humanize-ms@^1.2.1:
   dependencies:
     ms "^2.0.0"
 
+hyperapp@^2.0.8:
+  version "2.0.8"
+  resolved "https://registry.yarnpkg.com/hyperapp/-/hyperapp-2.0.8.tgz#6509a88ce21c43c6c51b98d40ca71e5b8e7b46ef"
+  integrity sha512-RZxmJ3G4VcR23RZfmK6U8KR7wHhXrbXAhKvjQuyg/kAv1bEIymdxUsrJAwtfXj0aasGU7CDQP70Gb2KwfxgJ/w==
+
 iconv-lite@0.4.24, iconv-lite@^0.4.24:
   version "0.4.24"
   resolved "https://registry.yarnpkg.com/iconv-lite/-/iconv-lite-0.4.24.tgz#2022b4b25fbddc21d2f524974a474aafe733908b"

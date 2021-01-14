@@ -112,5 +112,11 @@ module.exports = [
     package: 'mithril',
     port: 8018,
     buildDirectory: 'build'
+  },
+  {
+    name: 'Hyperapp',
+    package: 'hyperapp',
+    port: 8019,
+    buildDirectory: 'build'
   }
 ]

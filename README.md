@@ -40,6 +40,7 @@ To run the project follow these steps:
 [Akita]: https://datorama.github.io/akita/
 [Vanilla JS]: http://vanilla-js.com/
 [Mithril JS]: https://mithril.js.org/
+[Hyperapp]: https://github.com/JorgeBucaran/hyperapp
 
 |Used set|Build size (uncompressed)|Build size (gzipped)|Approx build time (measured with [Gnomon])|
 |---|---|---|---|
@@ -62,10 +63,10 @@ To run the project follow these steps:
 |[Vue] + [XState] w/ [Vite]                     |140.48KB| 81.76KB|2.8134s|
 |[Vanilla JS] w/ [Snowpack]                     | 18.09KB|  4.62KB|0.3244s|
 |[Mithril JS] w/ [Snowpack]                     | 44.17KB| 21.29KB|0.9786s|
+|[Hyperapp] w/ [Snowpack]                       | 19.50KB|  5.84KB|0.5381s|
 
 # To implement
 
-- Hyperapp
 - Alpine.js
 - Angular + rxjs
 - Vanilla Angular
