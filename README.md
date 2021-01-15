@@ -32,6 +32,7 @@ To run the project follow these steps:
 [Mithril JS]: https://mithril.js.org/
 [Hyperapp]: https://github.com/JorgeBucaran/hyperapp
 [Alpine.js]: https://github.com/alpinejs/alpine/
+[Angular]: https://angular.io/
 
 [Vuex]: https://next.vuex.vuejs.org/
 [XState]: https://xstate.js.org/
@@ -44,6 +45,7 @@ To run the project follow these steps:
 [Effector]: https://effector.dev/
 [XState FSM]: https://xstate.js.org/docs/packages/xstate-fsm/
 [Akita]: https://datorama.github.io/akita/
+[NgRx]: https://ngrx.io/
 
 |Framework|State solution|Bundler|Build size (uncompressed)|Build size (gzipped)|Approx build time (measured with [Gnomon])|
 |---|---|---|---|---|---|
@@ -69,10 +71,10 @@ To run the project follow these steps:
 |[Hyperapp]    |built-in         |[Snowpack]                       | 19.50KB|  5.84KB| 0.5381s|
 |[Alpine.js]   |built-in         |[Snowpack]                       | 38.80KB| 18.41KB| 1.0088s|
 |[Angular]     |built-in         |[Webpack] (through [Angular CLI])|222.61KB|119.79KB|20.0468s|
+|[Angular]     |[NgRx]           |[Webpack] (through [Angular CLI])|232.84KB|127.53KB|24.2881s|
 
 # To implement
 
-- Angular + rxjs
 - Backbone
 - Ember
 - choo.js

@@ -130,5 +130,11 @@ module.exports = [
     package: 'angular',
     port: 8021,
     buildDirectory: 'dist'
+  },
+  {
+    name: 'Angular + NgRx',
+    package: 'angular-ngrx',
+    port: 8022,
+    buildDirectory: 'dist'
   }
 ]
