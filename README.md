@@ -64,10 +64,10 @@ To run the project follow these steps:
 |[Vanilla JS]  |just DOM         |[Snowpack]| 18.09KB|  4.62KB|0.3244s|
 |[Mithril JS]  |built-in         |[Snowpack]| 44.17KB| 21.29KB|0.9786s|
 |[Hyperapp]    |built-in         |[Snowpack]| 19.50KB|  5.84KB|0.5381s|
+|[Alpine.js]   |built-in         |[Snowpack]| 38.80KB| 18.41KB|1.0088s|
 
 # To implement
 
-- Alpine.js
 - Angular + rxjs
 - Vanilla Angular
 - Backbone

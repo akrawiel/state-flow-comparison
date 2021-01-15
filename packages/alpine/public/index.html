@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" href="/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alpine JS</title>
+</head>
+<body>
+  <div id="app">
+    <div class="todo-container" x-data="{ todos: [], text: '' }">
+      <form class="todo-form" @submit.prevent="todos = [...todos, generateTodo(text)]; text = '';">
+        <input
+          name="text"
+          type="text"
+          x-model="text"
+          placeholder="Add a new task" />
+        <button type="submit">OK</button>
+      </form>
+      <template x-for="todo in todos" :key="todo.id">
+        <div class="todo">
+          <div class="todo-description">
+            <div x-text="todo.text"></div>
+            <small x-text="todo.id"></small>
+          </div>
+          <button class="todo-remove" @click="todos = todos.filter(({ id }) => id !== todo.id)">&times;</button>
+        </div>
+      </template>
+    </div>
+  </div>
+  <script type="module">
+    import '@akrawiel-sfc/common/main.css'
+
+    import 'alpinejs'
+
+    import { nanoid } from 'nanoid'
+
+    window.generateTodo = (text) => {
+      return {
+        id: nanoid(),
+        text
+      }
+    }
+  </script>
+</body>
+</html>

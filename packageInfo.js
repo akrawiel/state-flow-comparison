@@ -108,7 +108,7 @@ module.exports = [
     buildDirectory: 'build'
   },
   {
-    name: 'Mithril JS',
+    name: 'Mithril',
     package: 'mithril',
     port: 8018,
     buildDirectory: 'build'
@@ -117,6 +117,12 @@ module.exports = [
     name: 'Hyperapp',
     package: 'hyperapp',
     port: 8019,
+    buildDirectory: 'build'
+  },
+  {
+    name: 'Alpine',
+    package: 'alpine',
+    port: 8020,
     buildDirectory: 'build'
   }
 ]
