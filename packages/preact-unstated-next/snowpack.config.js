@@ -11,12 +11,10 @@ module.exports = {
     public: '/',
     src: '/dist'
   },
-  experiments: {
-    optimize: {
-      bundle: true,
-      minify: true,
-      target: 'es2018'
-    }
+  optimize: {
+    bundle: true,
+    minify: true,
+    target: 'es2018'
   },
   alias: {
     "react": "preact/compat",

@@ -14,7 +14,7 @@
     "@prefresh/snowpack": "^3.0.0",
     "gnomon": "^1.5.0",
     "rimraf": "^3.0.2",
-    "snowpack": "^3.0.0-rc.2",
+    "snowpack": "^3.0.10",
     "unstated-next": "^1.1.0"
   }
 }
