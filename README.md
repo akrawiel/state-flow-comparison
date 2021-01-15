@@ -19,6 +19,8 @@ To run the project follow these steps:
 
 [Parcel]: https://parceljs.org/
 [Snowpack]: https://www.snowpack.dev/
+[Webpack]: https://webpack.js.org/
+[Angular CLI]: https://cli.angular.io/
 
 [Vue]: https://v3.vuejs.org/
 [Vite]: https://github.com/vitejs/vite
@@ -26,6 +28,10 @@ To run the project follow these steps:
 [Elm]: https://elm-lang.org/
 [Preact]: https://preactjs.com/
 [React]: https://reactjs.org/
+[Vanilla JS]: http://vanilla-js.com/
+[Mithril JS]: https://mithril.js.org/
+[Hyperapp]: https://github.com/JorgeBucaran/hyperapp
+[Alpine.js]: https://github.com/alpinejs/alpine/
 
 [Vuex]: https://next.vuex.vuejs.org/
 [XState]: https://xstate.js.org/
@@ -38,38 +44,35 @@ To run the project follow these steps:
 [Effector]: https://effector.dev/
 [XState FSM]: https://xstate.js.org/docs/packages/xstate-fsm/
 [Akita]: https://datorama.github.io/akita/
-[Vanilla JS]: http://vanilla-js.com/
-[Mithril JS]: https://mithril.js.org/
-[Hyperapp]: https://github.com/JorgeBucaran/hyperapp
 
 |Framework|State solution|Bundler|Build size (uncompressed)|Build size (gzipped)|Approx build time (measured with [Gnomon])|
 |---|---|---|---|---|---|
-|[Vue]         |[Vuex]           |[Vite]    | 67.99KB| 40.17KB|2.4070s|
-|[Svelte]      |[XState]         |[Snowpack]| 71.40KB| 33.65KB|1.5606s|
-|[Elm]         |built-in         |[Parcel]  | 31.13KB| 19.69KB|1.4230s|
-|[Vue]         |built-in         |[Vite]    | 59.36KB| 35.66KB|1.7538s|
-|[Svelte]      |built-in         |[Snowpack]| 20.59KB|  6.72KB|0.5739s|
-|[Preact]      |[Recoil]         |[Snowpack]| 82.34KB| 42.54KB|1.3348s|
-|[Preact]      |[Redux]          |[Snowpack]| 47.53KB| 23.69KB|2.1215s|
-|[Preact]      |[MobX]           |[Snowpack]| 86.39KB| 43.54KB|3.0521s|
-|[Preact]      |[Unstated-next]  |[Snowpack]| 37.67KB| 16.99KB|1.3882s|
-|[React]       |[Jotai]          |[Snowpack]|158.82KB| 86.56KB|3.4635s|
-|[Preact]      |[XState]         |[Snowpack]| 86.62KB| 43.08KB|2.6460s|
-|[Preact]      |built-in         |[Snowpack]| 25.44KB|  9.72KB|1.1813s|
-|[Svelte]      |[Zustand]        |[Snowpack]| 24.84KB|  9.25KB|0.6132s|
-|[Svelte]      |[Effector]       |[Snowpack]| 31.24KB| 14.97KB|0.6925s|
-|[Svelte]      |[XState FSM]     |[Snowpack]| 27.25KB| 11.23KB|0.5992s|
-|[Svelte]      |[Akita]          |[Snowpack]|101.13KB| 44.38KB|1.8544s|
-|[Vue]         |[XState]         |[Vite]    |140.48KB| 81.76KB|2.8134s|
-|[Vanilla JS]  |just DOM         |[Snowpack]| 18.09KB|  4.62KB|0.3244s|
-|[Mithril JS]  |built-in         |[Snowpack]| 44.17KB| 21.29KB|0.9786s|
-|[Hyperapp]    |built-in         |[Snowpack]| 19.50KB|  5.84KB|0.5381s|
-|[Alpine.js]   |built-in         |[Snowpack]| 38.80KB| 18.41KB|1.0088s|
+|[Vue]         |[Vuex]           |[Vite]                           | 67.99KB| 40.17KB| 2.4070s|
+|[Svelte]      |[XState]         |[Snowpack]                       | 71.40KB| 33.65KB| 1.5606s|
+|[Elm]         |built-in         |[Parcel]                         | 31.13KB| 19.69KB| 1.4230s|
+|[Vue]         |built-in         |[Vite]                           | 59.36KB| 35.66KB| 1.7538s|
+|[Svelte]      |built-in         |[Snowpack]                       | 20.59KB|  6.72KB| 0.5739s|
+|[Preact]      |[Recoil]         |[Snowpack]                       | 82.34KB| 42.54KB| 1.3348s|
+|[Preact]      |[Redux]          |[Snowpack]                       | 47.53KB| 23.69KB| 2.1215s|
+|[Preact]      |[MobX]           |[Snowpack]                       | 86.39KB| 43.54KB| 3.0521s|
+|[Preact]      |[Unstated-next]  |[Snowpack]                       | 37.67KB| 16.99KB| 1.3882s|
+|[React]       |[Jotai]          |[Snowpack]                       |158.82KB| 86.56KB| 3.4635s|
+|[Preact]      |[XState]         |[Snowpack]                       | 86.62KB| 43.08KB| 2.6460s|
+|[Preact]      |built-in         |[Snowpack]                       | 25.44KB|  9.72KB| 1.1813s|
+|[Svelte]      |[Zustand]        |[Snowpack]                       | 24.84KB|  9.25KB| 0.6132s|
+|[Svelte]      |[Effector]       |[Snowpack]                       | 31.24KB| 14.97KB| 0.6925s|
+|[Svelte]      |[XState FSM]     |[Snowpack]                       | 27.25KB| 11.23KB| 0.5992s|
+|[Svelte]      |[Akita]          |[Snowpack]                       |101.13KB| 44.38KB| 1.8544s|
+|[Vue]         |[XState]         |[Vite]                           |140.48KB| 81.76KB| 2.8134s|
+|[Vanilla JS]  |just DOM         |[Snowpack]                       | 18.09KB|  4.62KB| 0.3244s|
+|[Mithril JS]  |built-in         |[Snowpack]                       | 44.17KB| 21.29KB| 0.9786s|
+|[Hyperapp]    |built-in         |[Snowpack]                       | 19.50KB|  5.84KB| 0.5381s|
+|[Alpine.js]   |built-in         |[Snowpack]                       | 38.80KB| 18.41KB| 1.0088s|
+|[Angular]     |built-in         |[Webpack] (through [Angular CLI])|222.61KB|119.79KB|20.0468s|
 
 # To implement
 
 - Angular + rxjs
-- Vanilla Angular
 - Backbone
 - Ember
 - choo.js

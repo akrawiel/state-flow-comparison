@@ -1,0 +1,17 @@
+<div class="todo-container">
+  <form class="todo-form" (submit)="addTodo($event)">
+    <input
+      name="text"
+      type="text"
+      [(ngModel)]="inputValue"
+      placeholder="Add a new task" />
+    <button type="submit">OK</button>
+  </form>
+  <div class="todo" *ngFor="let todo of todos">
+    <div class="todo-description">
+      <div>{{ todo.text }}</div>
+      <small>{{ todo.id }}</small>
+    </div>
+    <button class="todo-remove" (click)="removeTodo(todo.id)">&times;</button>
+  </div>
+</div>

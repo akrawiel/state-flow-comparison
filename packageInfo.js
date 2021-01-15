@@ -124,5 +124,11 @@ module.exports = [
     package: 'alpine',
     port: 8020,
     buildDirectory: 'build'
+  },
+  {
+    name: 'Angular',
+    package: 'angular',
+    port: 8021,
+    buildDirectory: 'dist'
   }
 ]
