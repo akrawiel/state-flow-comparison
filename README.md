@@ -21,6 +21,8 @@ To run the project follow these steps:
 [Snowpack]: https://www.snowpack.dev/
 [Webpack]: https://webpack.js.org/
 [Angular CLI]: https://cli.angular.io/
+[Broccoli]: https://broccoli.build/
+[Ember CLI]: https://cli.emberjs.com/release/
 
 [Vue]: https://v3.vuejs.org/
 [Vite]: https://github.com/vitejs/vite
@@ -34,6 +36,7 @@ To run the project follow these steps:
 [Alpine.js]: https://github.com/alpinejs/alpine/
 [Angular]: https://angular.io/
 [Backbone]: https://backbonejs.org/
+[Ember]: https://emberjs.com/
 
 [Vuex]: https://next.vuex.vuejs.org/
 [XState]: https://xstate.js.org/
@@ -74,10 +77,10 @@ To run the project follow these steps:
 |[Angular]     |built-in         |[Webpack] (through [Angular CLI])|222.61KB|119.79KB|20.0468s|
 |[Angular]     |[NgRx]           |[Webpack] (through [Angular CLI])|232.84KB|127.53KB|24.2881s|
 |[Backbone]    |built-in         |[Snowpack]                       |153.97KB| 89.23KB| 2.4972s|
+|[Ember]       |built-in         |[Broccoli] (through [Ember CLI]) |772.24KB|354.90KB|14.0757s|
 
 # To implement
 
-- Ember
 - choo.js
 - [solid](https://github.com/ryansolid/solid)
 - marko

@@ -142,5 +142,11 @@ module.exports = [
     package: 'backbone',
     port: 8023,
     buildDirectory: 'build'
+  },
+  {
+    name: 'Ember',
+    package: 'ember',
+    port: 8024,
+    buildDirectory: 'dist'
   }
 ]

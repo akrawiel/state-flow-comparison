@@ -1,0 +1,22 @@
+<div id="app">
+  <div class="todo-container">
+    <form class="todo-form" {{on "submit" this.addTodo}}>
+      <input
+        name="text"
+        type="text"
+        value={{this.text}}
+        {{on "input" this.setText}}
+        placeholder="Add a new task" />
+      <button type="submit">OK</button>
+    </form>
+    {{#each this.todos as |todo|}}
+      <div class="todo">
+        <div class="todo-description">
+          <div>{{todo.text}}</div>
+          <small>{{todo.id}}</small>
+        </div>
+        <button class="todo-remove" {{on "click" (fn this.removeTodo todo.id)}}>&times;</button>
+      </div>
+    {{/each}}
+  </div>
+</div>
