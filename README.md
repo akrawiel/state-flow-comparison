@@ -37,6 +37,7 @@ To run the project follow these steps:
 [Angular]: https://angular.io/
 [Backbone]: https://backbonejs.org/
 [Ember]: https://emberjs.com/
+[Choo]: https://www.choo.io/
 
 [Vuex]: https://next.vuex.vuejs.org/
 [XState]: https://xstate.js.org/
@@ -78,10 +79,10 @@ To run the project follow these steps:
 |[Angular]     |[NgRx]           |[Webpack] (through [Angular CLI])|232.84KB|127.53KB|24.2881s|
 |[Backbone]    |built-in         |[Snowpack]                       |153.97KB| 89.23KB| 2.4972s|
 |[Ember]       |built-in         |[Broccoli] (through [Ember CLI]) |772.24KB|354.90KB|14.0757s|
+|[Choo]        |built-in         |[Snowpack]                       | 46.65KB| 21.04KB| 0.8340s|
 
 # To implement
 
-- choo.js
 - [solid](https://github.com/ryansolid/solid)
 - marko
 - imba

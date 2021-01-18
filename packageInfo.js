@@ -148,5 +148,11 @@ module.exports = [
     package: 'ember',
     port: 8024,
     buildDirectory: 'dist'
+  },
+  {
+    name: 'Choo',
+    package: 'choo',
+    port: 8025,
+    buildDirectory: 'build'
   }
 ]
