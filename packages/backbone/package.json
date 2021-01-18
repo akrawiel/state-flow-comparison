@@ -1,0 +1,19 @@
+{
+  "name": "@akrawiel-sfc/backbone",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "snowpack dev",
+    "build": "snowpack build | gnomon -t elapsed-total"
+  },
+  "dependencies": {
+    "backbone": "^1.4.0",
+    "jquery": "^3.5.1",
+    "nanoid": "^3.1.20",
+    "underscore": "^1.12.0"
+  },
+  "devDependencies": {
+    "gnomon": "^1.5.0",
+    "rimraf": "^3.0.2",
+    "snowpack": "^3.0.10"
+  }
+}

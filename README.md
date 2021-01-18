@@ -33,6 +33,7 @@ To run the project follow these steps:
 [Hyperapp]: https://github.com/JorgeBucaran/hyperapp
 [Alpine.js]: https://github.com/alpinejs/alpine/
 [Angular]: https://angular.io/
+[Backbone]: https://backbonejs.org/
 
 [Vuex]: https://next.vuex.vuejs.org/
 [XState]: https://xstate.js.org/
@@ -72,10 +73,10 @@ To run the project follow these steps:
 |[Alpine.js]   |built-in         |[Snowpack]                       | 38.80KB| 18.41KB| 1.0088s|
 |[Angular]     |built-in         |[Webpack] (through [Angular CLI])|222.61KB|119.79KB|20.0468s|
 |[Angular]     |[NgRx]           |[Webpack] (through [Angular CLI])|232.84KB|127.53KB|24.2881s|
+|[Backbone]    |built-in         |[Snowpack]                       |153.97KB| 89.23KB| 2.4972s|
 
 # To implement
 
-- Backbone
 - Ember
 - choo.js
 - [solid](https://github.com/ryansolid/solid)

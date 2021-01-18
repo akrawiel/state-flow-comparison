@@ -9,48 +9,44 @@
         <div>{{ todo.text }}</div>
         <small>{{ todo.id }}</small>
       </div>
-      <button class="todo-remove" @click="removeTodo(todo)">
-        &times;
-      </button>
+      <button class="todo-remove" @click="removeTodo(todo)">&times;</button>
     </div>
   </div>
 </template>
 
 <script>
-import { computed, ref } from 'vue'
-import { nanoid } from "nanoid"
+import { computed, ref } from "vue";
+import { nanoid } from "nanoid";
 
 export default {
-  name: 'App',
+  name: "App",
 
   setup() {
-    const todos = ref([])
+    const todos = ref([]);
 
-    const text = ref('')
+    const text = ref("");
 
     const addTodo = () => {
       const newTodo = {
         id: nanoid(),
-        text: text.value
-      }
+        text: text.value,
+      };
 
-      todos.value = [...todos.value, newTodo]
+      todos.value = [...todos.value, newTodo];
 
-      text.value = ''
-    }
+      text.value = "";
+    };
 
     const removeTodo = (todo) => {
-      todos.value = todos.value.filter(
-        ({ id }) => id !== todo.id
-      )
-    }
+      todos.value = todos.value.filter(({ id }) => id !== todo.id);
+    };
 
     return {
-      addTodo, 
+      addTodo,
       removeTodo,
       text,
-      todos
-    }
-  }
-}
+      todos,
+    };
+  },
+};
 </script>

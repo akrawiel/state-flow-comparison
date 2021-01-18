@@ -136,5 +136,11 @@ module.exports = [
     package: 'angular-ngrx',
     port: 8022,
     buildDirectory: 'dist'
+  },
+  {
+    name: 'Backbone',
+    package: 'backbone',
+    port: 8023,
+    buildDirectory: 'build'
   }
 ]
