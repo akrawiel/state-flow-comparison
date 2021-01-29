@@ -23,6 +23,7 @@ To run the project follow these steps:
 [Angular CLI]: https://cli.angular.io/
 [Broccoli]: https://broccoli.build/
 [Ember CLI]: https://cli.emberjs.com/release/
+[Solid Scripts]: https://github.com/ryansolid/solid-scripts
 
 [Vue]: https://v3.vuejs.org/
 [Vite]: https://github.com/vitejs/vite
@@ -38,6 +39,7 @@ To run the project follow these steps:
 [Backbone]: https://backbonejs.org/
 [Ember]: https://emberjs.com/
 [Choo]: https://www.choo.io/
+[Solid]: https://solidjs.com/
 
 [Vuex]: https://next.vuex.vuejs.org/
 [XState]: https://xstate.js.org/
@@ -80,10 +82,10 @@ To run the project follow these steps:
 |[Backbone]    |built-in         |[Snowpack]                       |153.97KB| 89.23KB| 2.4972s|
 |[Ember]       |built-in         |[Broccoli] (through [Ember CLI]) |772.24KB|354.90KB|14.0757s|
 |[Choo]        |built-in         |[Snowpack]                       | 46.65KB| 21.04KB| 0.8340s|
+|[Solid]       |built-in         |[Solid Scripts]                  | 75.16KB| 43.39KB| 3.8953s|
 
 # To implement
 
-- [solid](https://github.com/ryansolid/solid)
 - marko
 - imba
 - re-frame

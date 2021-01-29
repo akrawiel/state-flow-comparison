@@ -1,0 +1,25 @@
+{
+  "name": "@akrawiel-sfc/solid",
+  "version": "0.0.0",
+  "private": true,
+  "devDependencies": {
+    "gnomon": "^1.5.0",
+    "solid-js": "^0.23.11",
+    "solid-scripts": "0.0.50"
+  },
+  "dependencies": {
+    "nanoid": "^3.1.20"
+  },
+  "scripts": {
+    "dev": "solid-scripts start",
+    "build": "solid-scripts build | gnomon -t elapsed-total",
+    "test": "solid-scripts test"
+  },
+  "browserslist": [
+    "Chrome 74",
+    "Firefox 63",
+    "Safari 11",
+    "Edge 17",
+    "Node 10"
+  ]
+}

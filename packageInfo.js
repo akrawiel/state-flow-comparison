@@ -154,5 +154,11 @@ module.exports = [
     package: 'choo',
     port: 8025,
     buildDirectory: 'build'
+  },
+  {
+    name: 'Solid',
+    package: 'solid',
+    port: 8026,
+    buildDirectory: 'build'
   }
 ]
