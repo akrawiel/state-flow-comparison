@@ -24,6 +24,7 @@ To run the project follow these steps:
 [Broccoli]: https://broccoli.build/
 [Ember CLI]: https://cli.emberjs.com/release/
 [Solid Scripts]: https://github.com/ryansolid/solid-scripts
+[Marko CLI]: https://github.com/marko-js/cli
 
 [Vue]: https://v3.vuejs.org/
 [Vite]: https://github.com/vitejs/vite
@@ -40,6 +41,7 @@ To run the project follow these steps:
 [Ember]: https://emberjs.com/
 [Choo]: https://www.choo.io/
 [Solid]: https://solidjs.com/
+[Marko]: https://markojs.com/
 
 [Vuex]: https://next.vuex.vuejs.org/
 [XState]: https://xstate.js.org/
@@ -83,10 +85,14 @@ To run the project follow these steps:
 |[Ember]       |built-in         |[Broccoli] (through [Ember CLI]) |772.24KB|354.90KB|14.0757s|
 |[Choo]        |built-in         |[Snowpack]                       | 46.65KB| 21.04KB| 0.8340s|
 |[Solid]       |built-in         |[Solid Scripts]                  | 75.16KB| 43.39KB| 3.8953s|
+|[Marko]       |built-in         |[Marko CLI]                      |106.62KB| 66.32KB| 4.8237s|
+
+# Note
+
+Due to a possible bug in Marko the styling is not rendered correctly
 
 # To implement
 
-- marko
 - imba
 - re-frame
 - Reason (w/ ReasonReact)

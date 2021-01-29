@@ -1,0 +1,11 @@
+app-layout
+  .todo-container
+    form.todo-form on-submit("addTodo")
+      input name="text" type="text" value=state.text on-input("setText") placeholder="Add a new task"
+      button type="submit" -- OK
+  for|todo| of=state.todos
+    .todo key=todo.id
+      .todo-description
+        div -- ${todo.text}
+        small -- ${todo.id}
+      button.todo-remove on-click=(() => removeTodo(todo)) -- &times;

@@ -160,5 +160,11 @@ module.exports = [
     package: 'solid',
     port: 8026,
     buildDirectory: 'build'
+  },
+  {
+    name: 'Marko',
+    package: 'marko',
+    port: 8027,
+    buildDirectory: 'build'
   }
 ]
