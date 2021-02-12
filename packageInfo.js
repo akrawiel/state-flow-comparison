@@ -166,5 +166,11 @@ module.exports = [
     package: 'marko',
     port: 8027,
     buildDirectory: 'build'
+  },
+  {
+    name: 'Rust + Yew',
+    package: 'rust-yew',
+    port: 8028,
+    buildDirectory: 'build'
   }
 ]

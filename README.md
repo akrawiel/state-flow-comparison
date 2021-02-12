@@ -93,9 +93,7 @@ Due to a possible bug in Marko the styling is not rendered correctly
 
 # To implement
 
-- imba
-- re-frame
-- Reason (w/ ReasonReact)
+- imba - waiting for at least v2 beta release
 - Nim (w/ JS backend)
 - Zig (w/ WASM backend)
 - Rust (w/ WASM backend, possibly + Yew framework)
