@@ -166,5 +166,11 @@ module.exports = [
     package: 'marko',
     port: 8027,
     buildDirectory: 'build'
+  },
+  {
+    name: 'ReScript + reason-react',
+    package: 'rescript-reason-react',
+    port: 9000,
+    buildDirectory: 'dist'
   }
 ]

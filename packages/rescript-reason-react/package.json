@@ -1,0 +1,18 @@
+{
+  "name": "@akrawiel-sfc/rescript-reason-react",
+  "version": "0.0.0",
+  "dependencies": {
+    "nanoid": "^3.1.20",
+    "parcel-bundler": "^1.12.4",
+    "reason-react": "^0.9.1"
+  },
+  "scripts": {
+    "dev": "parcel src/index.html --port 9000",
+    "build": "rimraf dist && parcel build src/index.html | gnomon -t elapsed-total"
+  },
+  "devDependencies": {
+    "bs-platform": "^8.4.2",
+    "gnomon": "^1.5.0",
+    "rimraf": "^3.0.2"
+  }
+}
