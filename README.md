@@ -100,3 +100,4 @@ Due to a possible bug in Marko the styling is not rendered correctly
 - Blazor.NET
 - Scala.js
 - Purescript
+- Mint
